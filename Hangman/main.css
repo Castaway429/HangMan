@@ -1,0 +1,81 @@
+
+.text {
+  display: inline-block;
+  padding: 10px;
+  }
+ 
+#incorrectTitle {
+  margin-right: 15%;
+  margin-top: 1px;
+  float: right;
+  font-size: 30px;
+  color: red;
+}
+  
+#introTitle {
+  margin-top: 1px;
+  margin-left: 10%;
+  float: left;
+  font-size: 30px;
+  color: blue;
+}
+
+#fillwithword{
+  margin-top: 320px;
+  margin-left: 10%;
+  position: absolute;
+  font-size: 100px;
+}
+
+#incorrectguesses{
+  font-size: 30px;
+  position: absolute;
+  color: green;
+  margin-left: 70%;
+  margin-top: 10%;
+}
+
+.vl {
+  margin-left: 60%;
+  border-left: 10px solid black;
+  height: 450px;
+  margin-bottom: 0px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 10px solid black;
+  margin-top: 0px;
+}
+
+#images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.letters
+{
+  display: block;
+  margin: 5px;
+  padding: 2px;
+  height: 40px;
+}
+
+.letters:hover{
+  border: 5px solid red;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#SMan {
+  margin-left: -300px;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  margin-top: 180px;
+}
